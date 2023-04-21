@@ -10,14 +10,19 @@ export const navItems: INavData[] = [
       text: 'NEW'
     }
   },
+
+  {
+    title: true,
+    name: 'Theme'
+  },
+  {
+    name: 'Estados de Cuenta',
+    url: '/theme/colors',
+    iconComponent: { name: 'cil-drop' }
+  },
   {
     name: 'Components',
     title: true
-  },
-  {
-    name: 'Estados de cuenta',
-    url: '/dashboard',
-    iconComponent: { name: 'cil-speedometer' },
   },
   {
     name: 'Colaborador',
@@ -25,24 +30,25 @@ export const navItems: INavData[] = [
     iconComponent: { name: 'cil-puzzle' },
     children: [
       {
-        name: 'Usuario',
+        name: 'Usarios',
         url: '/base/accordion'
       },
     ]
   },
   {
     name: 'Académico',
-    url: '/forms',
-    iconComponent: { name: 'cil-notes' },
+    url: '/base',
+    iconComponent: { name: 'cil-puzzle' },
     children: [
       {
         name: 'Carreras',
-        url: '/forms/form-control'
+        url: '/base/accordion'
       },
       {
         name: 'Página web',
-        url: '/forms/select'
+        url: '/base/accordion'
       },
     ]
   },
+
 ];

@@ -12,7 +12,7 @@ import { DocsCalloutComponent } from './docs-callout/docs-callout.component';
   declarations: [
     DocsExampleComponent,
     DocsLinkComponent,
-    DocsCalloutComponent
+    DocsCalloutComponent,
   ],
   exports: [
     DocsExampleComponent,
