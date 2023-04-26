@@ -51,4 +51,10 @@ export const navItems: INavData[] = [
     ]
   },
 
+  {
+    name: 'Experiencias',
+    url: '/experiencias',
+    iconComponent: { name: 'cil-puzzle' },
+  },
+
 ];
